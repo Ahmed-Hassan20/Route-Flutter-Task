@@ -48,6 +48,7 @@ class ProductList extends StatelessWidget {
     return Scaffold(
       backgroundColor: MyTheme.whiteColor,
       appBar: AppBar(
+        backgroundColor: MyTheme.whiteColor,
         title: Image.asset('assets/icons/route_logo.png'),
       ),
       body: Column(
